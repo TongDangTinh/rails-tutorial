@@ -37,6 +37,11 @@ gem "jbuilder", "~> 2.5"
 # ready to drop right into your Sass powered applications.
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
+# bcrypt() is a sophisticated and secure hash algorithm designed by 
+# The OpenBSD project for hashing passwords. The bcrypt Ruby gem provides
+# a simple wrapper for safely handling passwords.
+gem 'bcrypt', '~> 3.1', '>= 3.1.13'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
 
