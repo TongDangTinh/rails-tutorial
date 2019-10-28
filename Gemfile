@@ -42,6 +42,9 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # a simple wrapper for safely handling passwords.
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 
+# This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application. 
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
 
