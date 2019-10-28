@@ -45,6 +45,19 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 # This gem provides jQuery and the jQuery-ujs driver for your Rails 4+ application. 
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 
+# Faker, a port of Data::Faker from Perl, is used to easily generate fake
+# data: names, addresses, phone numbers, etc.
+gem 'faker', '~> 2.6'
+
+# will_paginate provides a simple API for performing paginated queries with
+# Active Record, DataMapper and Sequel, and includes helpers for
+# rendering pagination links in Rails, Sinatra, Hanami, and Merb web apps.
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+
+# This gem integrates the Twitter Bootstrap pagination component with the 
+# will_paginate pagination gem. Supports Rails and Sinatra.
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
 
