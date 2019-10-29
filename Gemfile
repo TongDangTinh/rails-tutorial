@@ -47,7 +47,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 
 # Faker, a port of Data::Faker from Perl, is used to easily generate fake
 # data: names, addresses, phone numbers, etc.
-gem 'faker', '~> 2.6'
+gem 'faker'
 
 # will_paginate provides a simple API for performing paginated queries with
 # Active Record, DataMapper and Sequel, and includes helpers for
@@ -57,6 +57,13 @@ gem 'will_paginate', '~> 3.2', '>= 3.2.1'
 # This gem integrates the Twitter Bootstrap pagination component with the 
 # will_paginate pagination gem. Supports Rails and Sinatra.
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
+
+# Upload files in your Ruby applications, map them to a range of ORMs, 
+# store them on different backends.
+gem "carrierwave"
+
+#Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
+gem "mini_magick"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
